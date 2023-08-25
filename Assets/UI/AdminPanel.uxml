@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ClientInAdminPanel" src="project://database/Assets/UI/Resources/PlayerOptions.uxml?fileID=9197481963319205126&amp;guid=963f2320811e9b745880d9429a6f8007&amp;type=3#PlayerOptions" />
+    <Style src="project://database/Assets/UI/Styles.uss?fileID=7433441132597879392&amp;guid=142e829458aee8a4a92251d7532914fd&amp;type=3#Styles" />
+    <ui:VisualElement name="Window" class="background" style="width: 50%; height: 60%; justify-content: center; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; flex-grow: 0; flex-shrink: 0;">
+        <ui:VisualElement name="TopBar" style="flex-direction: row-reverse; margin-top: 0; justify-content: space-between;">
+            <ui:Button text="X" display-tooltip-when-elided="true" name="Close" class="exit-button unity-button" style="left: auto; right: 0; top: 0; position: relative; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+            <ui:Label text="Administration" display-tooltip-when-elided="true" class="font" style="color: rgb(255, 255, 255); font-size: 20px; flex-grow: 1; -unity-text-align: upper-center;" />
+        </ui:VisualElement>
+        <ui:ScrollView horizontal-page-size="-1" touch-scroll-type="Clamped" style="flex-shrink: 0; flex-grow: 1; border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; margin-top: 5px; margin-bottom: 5px;">
+            <ui:Instance template="ClientInAdminPanel" name="PlayerOptions" />
+        </ui:ScrollView>
+        <ui:VisualElement name="Controls" style="flex-direction: row-reverse; align-items: center; justify-content: space-between;">
+            <ui:Button text="Save" display-tooltip-when-elided="true" name="SaveButton" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

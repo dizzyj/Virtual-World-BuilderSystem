@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles.uss?fileID=7433441132597879392&amp;guid=142e829458aee8a4a92251d7532914fd&amp;type=3#Styles" />
+    <ui:VisualElement name="base" class="font" style="flex-grow: 1; flex-shrink: 0; align-items: center; justify-content: flex-start;">
+        <ui:Label text="Virtual Counseling" display-tooltip-when-elided="true" name="Title" style="font-size: 40px; color: rgba(255, 255, 255, 255); margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;" />
+        <ui:VisualElement name="CenterMenu" style="flex-shrink: 0; flex-grow: 1; justify-content: center;">
+            <ui:VisualElement name="VisualElement">
+                <ui:Button text="Admin Controls" display-tooltip-when-elided="true" name="AdminButton" />
+                <ui:Button text="Leave Session" display-tooltip-when-elided="true" name="LeaveButton" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

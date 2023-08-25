@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles.uss?fileID=7433441132597879392&amp;guid=142e829458aee8a4a92251d7532914fd&amp;type=3#Styles" />
+    <ui:VisualElement name="base" style="width: 100%; height: 100%; align-items: center; justify-content: space-around;">
+        <ui:VisualElement name="Screen" style="width: 600px; height: 400px; align-items: center; padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px; justify-content: center; background-color: rgb(207, 207, 207); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+            <ui:Button text="X" display-tooltip-when-elided="true" name="Close" class="exit-button unity-button" style="left: auto; right: 10px; top: 10px;" />
+            <ui:DropdownField index="0" choices="System.Collections.Generic.List`1[System.String]" name="PatientSelector" tabindex="-1" class="font" style="width: 50%; background-color: rgba(241, 247, 181, 0);" />
+            <ui:Button text="Let Patient In" display-tooltip-when-elided="true" name="LetIn" class="font" style="width: 50%; background-color: rgb(241, 247, 181);" />
+            <ui:Button text="Waiting Room Code ABCDE" display-tooltip-when-elided="true" name="CopyCode" class="font" style="width: auto; flex-shrink: 1; position: absolute; bottom: 10px; left: 10px; background-color: rgb(168, 209, 209);" />
+            <ui:Button text="End Session" display-tooltip-when-elided="true" name="EndSession" class="font" style="width: auto; flex-shrink: 1; position: absolute; bottom: 10px; left: auto; right: 10px; background-color: rgb(253, 138, 138);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

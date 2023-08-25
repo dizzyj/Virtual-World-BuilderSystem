@@ -1,0 +1,88 @@
+.menu-button {
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 0;
+}
+
+.font {
+    -unity-font: url('project://database/Assets/UI/Fonts/Roboto-Black.ttf?fileID=12800000&guid=9e4bef691ddfa6346b6f56099ea72854&type=3#Roboto-Black');
+    -unity-font-definition: none;
+}
+
+.text-field {
+    height: auto;
+    font-size: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.interaction-wheel-button {
+    flex-grow: 0;
+    flex-direction: row;
+    flex-basis: 75%;
+    background-color: rgb(168, 209, 209);
+    -unity-font: url('project://database/Assets/UI/Fonts/Roboto-Black.ttf?fileID=12800000&guid=9e4bef691ddfa6346b6f56099ea72854&type=3#Roboto-Black');
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/Roboto-Black%20SDF%201.asset?fileID=11400000&guid=8db06c145ff03a446965e754b89021ee&type=2#Roboto-Black SDF 1');
+    height: 100%;
+    font-size: 16px;
+}
+
+.exit-button {
+    background-color: rgb(253, 138, 138);
+    border-left-color: rgb(202, 110, 110);
+    border-right-color: rgb(202, 110, 110);
+    border-top-color: rgb(202, 110, 110);
+    border-bottom-color: rgb(202, 110, 110);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    -unity-font: url('project://database/Assets/UI/Fonts/Roboto-Black.ttf?fileID=12800000&guid=9e4bef691ddfa6346b6f56099ea72854&type=3#Roboto-Black');
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/Roboto-Black%20SDF%201.asset?fileID=11400000&guid=8db06c145ff03a446965e754b89021ee&type=2#Roboto-Black SDF 1');
+    width: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 30px;
+}
+
+.unity-button {
+    -unity-font: url('project://database/Assets/UI/Fonts/Roboto-Black.ttf?fileID=12800000&guid=9e4bef691ddfa6346b6f56099ea72854&type=3#Roboto-Black');
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.iw-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.background {
+    border-left-color: rgba(0, 0, 0, 0.6);
+    border-right-color: rgba(0, 0, 0, 0.6);
+    border-top-color: rgba(0, 0, 0, 0.6);
+    border-bottom-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.45);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

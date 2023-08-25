@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles.uss?fileID=7433441132597879392&amp;guid=142e829458aee8a4a92251d7532914fd&amp;type=3#Styles" />
+    <ui:VisualElement name="base" class="background" style="width: 300px; height: 300px;">
+        <ui:VisualElement style="align-items: center; flex-basis: auto; flex-shrink: 1; height: 16%; flex-direction: row; justify-content: center; background-color: rgba(128, 128, 128, 0);">
+            <ui:Label text="Title" display-tooltip-when-elided="true" name="Title" style="-unity-font: url(&apos;project://database/Assets/UI/Fonts/Roboto-Black.ttf?fileID=12800000&amp;guid=9e4bef691ddfa6346b6f56099ea72854&amp;type=3#Roboto-Black&apos;); -unity-font-definition: url(&apos;project://database/Assets/UI/Fonts/Roboto-Black%20SDF%201.asset?fileID=11400000&amp;guid=8db06c145ff03a446965e754b89021ee&amp;type=2#Roboto-Black SDF 1&apos;); color: rgb(255, 255, 255); font-size: 20px;" />
+            <ui:Button text="X" display-tooltip-when-elided="true" name="Close" class="exit-button unity-button" style="left: auto; right: 0; top: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="InteractionsContainer" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

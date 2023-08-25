@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles.uss?fileID=7433441132597879392&amp;guid=142e829458aee8a4a92251d7532914fd&amp;type=3#Styles" />
+    <ui:VisualElement name="base" class="font" style="width: auto; height: auto; flex-shrink: 0; flex-grow: 1;">
+        <ui:VisualElement name="Tabs" style="flex-direction: row;">
+            <ui:Label text="Body" display-tooltip-when-elided="true" name="BodyTab" enable-rich-text="true" class="tab currentlySelectedTab tabText" style="flex-grow: 1;" />
+            <ui:Label text="Face" display-tooltip-when-elided="true" name="FaceTab" class="tab tabText" style="flex-grow: 1;" />
+            <ui:Label text="Blank" display-tooltip-when-elided="true" name="BlankTab" class="tab tabText" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="TabContent" style="flex-shrink: 0; flex-grow: 1; border-left-width: 2px; border-right-width: 2px; border-top-width: 0; border-bottom-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); color: rgb(255, 255, 255); border-top-right-radius: 0; border-bottom-right-radius: 0; background-color: rgba(0, 0, 0, 0.65); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:VisualElement name="BodyContent" style="justify-content: flex-start; flex-grow: 1; flex-shrink: 0;">
+                <ui:SliderInt picking-mode="Ignore" label="Chest" value="42" high-value="100" name="ChestSlider" class="customizerSlider" />
+                <ui:SliderInt picking-mode="Ignore" label="Stomach" value="42" high-value="100" name="StomachSlider" class="customizerSlider" />
+                <ui:SliderInt picking-mode="Ignore" label="Hips" value="42" high-value="100" name="HipsSlider" class="customizerSlider" />
+                <ui:SliderInt picking-mode="Ignore" label="Arms" value="42" high-value="100" name="ArmsSlider" class="customizerSlider" />
+                <ui:SliderInt picking-mode="Ignore" label="Legs" value="42" high-value="100" name="LegsSlider" class="customizerSlider" />
+            </ui:VisualElement>
+            <ui:VisualElement name="FaceContent" class="unselectedContent">
+                <ui:SliderInt picking-mode="Ignore" label="Forehead" value="42" high-value="100" name="ForeheadSlider" class="customizerSlider" />
+                <ui:SliderInt picking-mode="Ignore" label="Eyes" value="42" high-value="100" name="EyeSlider" class="customizerSlider" />
+                <ui:SliderInt picking-mode="Ignore" label="Eyebrows" value="42" high-value="100" name="BrowSlider" class="customizerSlider" />
+                <ui:SliderInt picking-mode="Ignore" label="Nose" value="42" high-value="100" name="NoseSlider" class="customizerSlider" />
+                <ui:SliderInt picking-mode="Ignore" label="Mouth" value="42" high-value="100" name="MouthSlider" class="customizerSlider" />
+                <ui:SliderInt picking-mode="Ignore" label="Cheeks" value="42" high-value="100" name="CheeksSlider" class="customizerSlider" />
+                <ui:SliderInt picking-mode="Ignore" label="Ears" value="42" high-value="100" name="EarsSlider" class="customizerSlider" />
+                <ui:SliderInt picking-mode="Ignore" label="Neck" value="42" high-value="100" name="NeckSlider" class="customizerSlider" />
+            </ui:VisualElement>
+            <ui:VisualElement name="BlankContent" class="unselectedContent">
+                <ui:Label text="Ottawa is the capital of Canadance" display-tooltip-when-elided="true" name="OttawaContent" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

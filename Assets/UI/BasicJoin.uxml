@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles.uss?fileID=7433441132597879392&amp;guid=142e829458aee8a4a92251d7532914fd&amp;type=3#Styles" />
+    <ui:VisualElement name="base" class="font" style="width: 100%; height: 100%; align-items: center; justify-content: center; flex-grow: 1;">
+        <ui:VisualElement name="joinWindow" style="width: 50%; height: 50%; background-color: rgb(148, 235, 250); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; align-items: center;">
+            <ui:VisualElement name="input" style="flex-grow: 1; justify-content: center; height: auto; width: 50%;">
+                <ui:Label text="Join Session" display-tooltip-when-elided="true" enable-rich-text="false" class="font" style="font-size: 20px; color: rgb(0, 0, 0); -unity-text-align: upper-center; margin-bottom: 10px; -unity-font-definition: none;" />
+                <ui:TextField picking-mode="Ignore" value="filler text" text="IP Address" name="ipField" focusable="true" class="text-field" style="flex-grow: 0; margin-bottom: 30px;" />
+                <ui:TextField picking-mode="Ignore" value="filler text" text="Username" name="usernameField" class="text-field" style="height: auto; font-size: 10px;" />
+                <ui:TextField picking-mode="Ignore" value="filler text" text="Password" name="passwordField" password="true" class="text-field" style="height: auto; font-size: 10px; margin-bottom: 30px; -unity-font-definition: none;" />
+                <ui:Button text="Join" display-tooltip-when-elided="false" name="joinButton" class="menu-button" style="margin-left: 0; -unity-font-definition: none; padding-left: 3px; padding-right: 3px; padding-top: 3px; padding-bottom: 3px;" />
+            </ui:VisualElement>
+            <ui:Label text="VW Counseling" display-tooltip-when-elided="true" name="menuTitle" style="color: rgb(0, 0, 0); align-items: center; -unity-text-align: upper-center; font-size: 40%; margin-top: 5%; position: absolute; white-space: nowrap; top: 0; left: 0; flex-grow: 1; width: 100%; justify-content: flex-start; -unity-font-definition: none;" />
+            <ui:Button display-tooltip-when-elided="true" name="backButton" style="position: absolute; left: 10px; top: 10px; background-image: url(&apos;project://database/Assets/UI/Icons/back_arrow.png?fileID=2800000&amp;guid=4195c2d0dd0d5694581be0a15997ee04&amp;type=3#back_arrow&apos;); background-color: rgba(88, 88, 88, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; width: 30px; height: 30px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

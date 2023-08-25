@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="align-items: center; flex-direction: row; flex-basis: initial; height: 16%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; flex-grow: 1;">
+        <ui:VisualElement name="Icon" class="iw-icon unity-button" style="background-image: url(&apos;project://database/Assets/UI/Icons/icons8-happy-100.png?fileID=2800000&amp;guid=69801b069e9a93f4494257d15676369e&amp;type=3#icons8-happy-100&apos;); background-color: rgb(241, 247, 181); height: 100%; width: 16%;" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="OptionButton" class="interaction-wheel-button" style="flex-shrink: 1; flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

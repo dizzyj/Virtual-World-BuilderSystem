@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="InteractionWheelTemplate" src="project://database/Assets/UI/Resources/InteractionWheelTemplate.uxml?fileID=9197481963319205126&amp;guid=76b85b732bcb23648b7736f2037560e6&amp;type=3#InteractionWheelTemplate" />
+    <Style src="project://database/Assets/UI/Styles.uss?fileID=7433441132597879392&amp;guid=142e829458aee8a4a92251d7532914fd&amp;type=3#Styles" />
+    <ui:Instance template="InteractionWheelTemplate" name="InteractionWheelTemplate" />
+</ui:UXML>

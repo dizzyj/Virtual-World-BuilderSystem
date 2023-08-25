@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles.uss?fileID=7433441132597879392&amp;guid=142e829458aee8a4a92251d7532914fd&amp;type=3#Styles" />
+    <ui:VisualElement name="DebugJoinMenu" style="position: absolute; top: auto; bottom: 10px; right: 10px; width: 166px;">
+        <ui:DropdownField index="0" name="SceneSelector" />
+        <ui:Button text="Host" display-tooltip-when-elided="true" name="HostButton" class="font" style="position: relative; bottom: auto; right: auto; color: rgb(0, 0, 0); background-color: rgb(168, 209, 209);" />
+        <ui:Label text="- or -" display-tooltip-when-elided="true" name="Label" class="font" style="-unity-text-align: middle-center; white-space: normal;" />
+        <ui:TextField picking-mode="Ignore" text="IP" is-delayed="true" name="IpField" class="font" style="color: rgb(0, 0, 0);" />
+        <ui:Button text="Join" display-tooltip-when-elided="true" name="JoinButton" class="font" style="position: relative; bottom: auto; right: auto; color: rgb(0, 0, 0); background-color: rgb(168, 209, 209);" />
+    </ui:VisualElement>
+</ui:UXML>
